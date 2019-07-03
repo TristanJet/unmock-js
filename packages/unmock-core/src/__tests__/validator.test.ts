@@ -3,7 +3,7 @@ import {
   getUpdatedStateFromContent,
   getValidResponsesForOperationWithState,
   spreadStateFromService,
-} from "../state/validator";
+} from "../service/state/validator";
 
 const schema: Schema = {
   properties: {

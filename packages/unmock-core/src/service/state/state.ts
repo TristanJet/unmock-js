@@ -2,7 +2,7 @@ import debug from "debug";
 import {
   DEFAULT_STATE_ENDPOINT,
   DEFAULT_STATE_HTTP_METHOD,
-} from "../service/constants";
+} from "../constants";
 import {
   ExtendedHTTPMethod,
   HTTPMethod,
@@ -13,8 +13,8 @@ import {
   PathItem,
   Paths,
   Schema,
-} from "../service/interfaces";
-import { OASMatcher } from "../service/matcher";
+} from "../interfaces";
+import { OASMatcher } from "../matcher";
 import { getValidResponsesForOperationWithState } from "./validator";
 
 type PathKey = keyof PathItem & HTTPMethod;

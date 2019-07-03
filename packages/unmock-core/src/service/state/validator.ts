@@ -11,7 +11,7 @@ import {
   Responses,
   Schema,
   UnmockServiceState,
-} from "../service/interfaces";
+} from "../interfaces";
 
 type codeType = keyof Responses;
 

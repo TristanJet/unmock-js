@@ -1,5 +1,5 @@
 import { ISerializedRequest } from "../interfaces";
-import { State } from "../state/state";
+import { State } from "./state/state";
 import {
   IService,
   IServiceInput,
